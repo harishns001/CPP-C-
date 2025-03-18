@@ -12,6 +12,7 @@ int main(){
     if(order == "green tea"){
         cout << "you have ordered Green Tea" << endl;
     }
+    return 0;
 }
 // c2: If-else statement
 // write a program that checks if a tea shop is open. If the current hour (input by the user) is between 8 am and 6pm, the shop is open; otherwise, it's closed.
@@ -87,8 +88,5 @@ int main(){
         default:
         cout << "your order is out of choice" << endl;
         break;
-
-
     }
-    
     }
